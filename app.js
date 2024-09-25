@@ -6,7 +6,7 @@ const port = 3000;
 app.get('/',(req, res) => {
     res.json({
         status: "success",
-        message: "get succeed"
+        message: "get success"
     })
 })
 
